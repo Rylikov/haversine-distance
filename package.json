@@ -1,0 +1,35 @@
+{
+  "name": "haversine-distance",
+  "version": "1.1.2",
+  "description": "Haversine formula in Javascript. In meters. Nothing more.",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run-script unit",
+    "unit": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcousens/haversine-distance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dcousens/haversine-distance/issues"
+  },
+  "homepage": "https://github.com/dcousens/haversine-distance",
+  "keywords": [
+    "haversine",
+    "distance",
+    "geography",
+    "latitude",
+    "longitude",
+    "coordinates",
+    "math",
+    "meters"
+  ],
+  "author": "Daniel Cousens",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "standard": "*"
+  }
+}
